@@ -36,105 +36,105 @@ const questions = [
         ]
     },
 
-{
-    question: "Which animal is considered as the king of the jungle?",
-    answers: [
-        {text: "Lion", correct: true},
-        {text: "Tiger", correct: false},
-        {text: "Elephant", correct: false},
-        {text: "Giraffe", correct: false}
-    ]
-},
-{
-    question: "How many cat speeches are there?",
-    answers: [
-        {text: "1", correct: false},
-        {text: "2", correct: false},
-        {text: "3", correct: true},
-        {text: "4", correct: false}
-    ]
-},
-{
-    question: "What is the smallest country in the world?",
-    answers: [
-        {text: "Nigeria", correct: false},
-        {text: "USA", correct: false},
-        {text: "China", correct: false},
-        {text: "Vatican City", correct: true}
-    ]
-},
-{
-    question: "Who is a software developer?",
-    answers: [
-        {text: "Bill Gates", correct: false},
-        {text: "Mark Zuckerberg", correct: false},
-        {text: "Elon Musk", correct: false},
-        {text: "All of the above", correct: true}
-    ]
-},
-{
-    question: "What is the capital of Lagos?",
-    answers: [
-        {text: "Ikorodu", correct: false},
-        {text: "Epe", correct: false},
-        {text: "Ikeja", correct: true},
-        {text: "Lekki", correct: false}
-    ]
-},
-{
-    question: "Who is the president of US?",
-    answers: [
-        {text: "Trump", correct: false},
-        {text: "Obama", correct: false},
-        {text: "Biden", correct: true},
-        {text: "Bush", correct: false}
-    ]
-},
-{
-    question: "What is the capital of US?",
-    answers: [
-        {text: "New York", correct: false},
-        {text: "Washington DC", correct: true},
-        {text: "California", correct: false},
-        {text: "Texas", correct: false}
-    ]
-},
-{
-    question: "What is the capital of China?",
-    answers: [
-        {text: "Beijing", correct: true},
-        {text: "Shanghai", correct: false},
-        {text: "Hong Kong", correct: false},
-        {text: "Wuhan", correct: false}
-    ]
-},
-{
-    question: "What is the ruling party in Nigeria?",
-    answers: [
-        {text: "PDP", correct: false},
-        {text: "APGA", correct: false},
-        {text: "APC", correct: true},
-        {text: "ADC", correct: false}
-    ]
-},
-{
-    question: "Who is the minister of education in Nigeria?",
-    answers: [
-        {text: "Osinbajo", correct: false},
-        {text: "Adamu Adamu", correct: true},
-        {text: "Fashola", correct: false},
-        {text: "Amaechi", correct: false}
-    ]
-},
-{
-    question: "Who is the minister of finance in Nigeria?",
-    answers: [
-        {text: "Osinbajo", correct: false},
-        {text: "Adamu Adamu", correct: false},
-        {text: "Fashola", correct: false},
-        {text: "Zainab Ahmed", correct: true}
-    ]
-}
+    {
+        question: "Which animal is considered as the king of the jungle?",
+        answers: [
+            {text: "Lion", correct: true},
+            {text: "Tiger", correct: false},
+            {text: "Elephant", correct: false},
+            {text: "Giraffe", correct: false}
+        ]
+    },
+    {
+        question: "How many cat speeches are there?",
+        answers: [
+            {text: "1", correct: false},
+            {text: "2", correct: false},
+            {text: "3", correct: true},
+            {text: "4", correct: false}
+        ]
+    },
+    {
+        question: "What is the smallest country in the world?",
+        answers: [
+            {text: "Nigeria", correct: false},
+            {text: "USA", correct: false},
+            {text: "China", correct: false},
+            {text: "Vatican City", correct: true}
+        ]
+    },
+    {
+        question: "Who is a software developer?",
+        answers: [
+            {text: "Bill Gates", correct: false},
+            {text: "Mark Zuckerberg", correct: false},
+            {text: "Elon Musk", correct: false},
+            {text: "All of the above", correct: true}
+        ]
+    },
+    {
+        question: "What is the capital of Lagos?",
+        answers: [
+            {text: "Ikorodu", correct: false},
+            {text: "Epe", correct: false},
+            {text: "Ikeja", correct: true},
+            {text: "Lekki", correct: false}
+        ]
+    },
+    {
+        question: "Who is the president of US?",
+        answers: [
+            {text: "Trump", correct: false},
+            {text: "Obama", correct: false},
+            {text: "Biden", correct: true},
+            {text: "Bush", correct: false}
+        ]
+    },
+    {
+        question: "What is the capital of US?",
+        answers: [
+            {text: "New York", correct: false},
+            {text: "Washington DC", correct: true},
+            {text: "California", correct: false},
+            {text: "Texas", correct: false}
+        ]
+    },
+    {
+        question: "What is the capital of China?",
+        answers: [
+            {text: "Beijing", correct: true},
+            {text: "Shanghai", correct: false},
+            {text: "Hong Kong", correct: false},
+            {text: "Wuhan", correct: false}
+        ]
+    },
+    {
+        question: "What is the ruling party in Nigeria?",
+        answers: [
+            {text: "PDP", correct: false},
+            {text: "APGA", correct: false},
+            {text: "APC", correct: true},
+            {text: "ADC", correct: false}
+        ]
+    },
+    {
+        question: "Who is the minister of education in Nigeria?",
+        answers: [
+            {text: "Osinbajo", correct: false},
+            {text: "Adamu Adamu", correct: true},
+            {text: "Fashola", correct: false},
+            {text: "Amaechi", correct: false}
+        ]
+    },
+    {
+        question: "Who is the minister of finance in Nigeria?",
+        answers: [
+            {text: "Osinbajo", correct: false},
+            {text: "Adamu Adamu", correct: false},
+            {text: "Fashola", correct: false},
+            {text: "Zainab Ahmed", correct: true}
+        ]
+    }
 ];
 
 const questionElement = document.getElementById("question");
